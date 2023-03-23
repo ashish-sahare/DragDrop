@@ -1,0 +1,14 @@
+<div id="<%= dom_id list %>">
+	<p>
+    <strong>List:</strong>
+    <%= list.name %>
+  </p>
+</div>
+
+<ul>
+	<% list.tasks.each do |task| %>
+		<li>
+			<%= render task %>
+		</li>
+	<% end %>
+</ul>
