@@ -24,4 +24,7 @@ Things you may want to cover:
 * ...
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 63edbe45828d541fd54e105d7a1bab9405e780a0
