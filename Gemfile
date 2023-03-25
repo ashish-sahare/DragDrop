@@ -43,11 +43,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
-<<<<<<< HEAD
-  #for better
-=======
   #for better errors
->>>>>>> 607e77a0b591a9945a835c65f926a921a4f62fde
   gem "better_errors"
   gem "binding_of_caller"
 end
@@ -64,8 +60,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
   gem 'ransack'
-<<<<<<< HEAD
-
-gem "bullet", "~> 7.0"
-=======
->>>>>>> 607e77a0b591a9945a835c65f926a921a4f62fde
+  gem "bullet", "~> 7.0"
