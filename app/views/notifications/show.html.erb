@@ -1,9 +1,9 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Seen:</strong>
-  <%= @notification.seen %>
-</p>
+<%= render @notification %>
 
-<%= link_to 'Edit', edit_notification_path(@notification) %> |
-<%= link_to 'Back', notifications_path %>
+<div>
+  <%= link_to "Edit this notification", edit_notification_path(@notification) %> |
+  <%= link_to "Back to notifications", notifications_path %>
+  <%= button_to "Destroy this notification", @notification, method: :delete %>
+</div>
